@@ -1,0 +1,48 @@
+set number relativenumber
+set NERDTree
+set idearefactormode=keep
+set ideajoin
+set surround
+// quickscope plugin needs to be installed.
+set quickscope
+
+
+let NERDTreeClose = ö
+
+nnoremap ö :action ActivateProjectToolWindow<CR>
+nnoremap Ö :action RecentFiles<CR>
+
+nnoremap dö di{
+nnoremap dÖ da{
+nnoremap dä di(
+nnoremap dÄ da(
+nnoremap dü di[
+nnoremap dÜ da[
+
+nnoremap cö ci{
+nnoremap cÖ ca{
+nnoremap cä ci(
+nnoremap cÄ ca(
+nnoremap cü ci[
+nnoremap cÜ ca[
+
+nnoremap yö yi{
+nnoremap yÖ ya{
+nnoremap yä yi(
+nnoremap yÄ ya(
+nnoremap yü yi[
+nnoremap yÜ ya[
+
+vnoremap ö i}
+vnoremap Ö a}
+vnoremap Ä a)
+vnoremap ä i)
+vnoremap ü i]
+vnoremap Ü a]
+
+nnoremap ä :action ActivateTerminalToolWindow<CR>
+nnoremap Ä :action FileStructurePopup<CR>
+nnoremap Ü :action ShowNavBar<CR>
+nnoremap ü :action HideAllWindows<CR>
+nnoremap gr :action RenameElement<CR>
+nnoremap ge :action GotoNextError<CR>
