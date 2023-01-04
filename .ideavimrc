@@ -6,8 +6,8 @@ set surround
 // quickscope plugin needs to be installed.
 set quickscope
 
-
 let NERDTreeClose = ö
+let g:qs_highlight_on_keys = ['f', 'F', 't', 'T']
 
 nnoremap ö :action ActivateProjectToolWindow<CR>
 nnoremap Ö :action RecentFiles<CR>
@@ -46,3 +46,4 @@ nnoremap Ü :action ShowNavBar<CR>
 nnoremap ü :action HideAllWindows<CR>
 nnoremap gr :action RenameElement<CR>
 nnoremap ge :action GotoNextError<CR>
+nnoremap gn :action SelectInProjectView<CR><CR>

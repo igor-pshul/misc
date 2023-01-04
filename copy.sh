@@ -1,1 +1,1 @@
-cp ~/.ideavimrc . && cp ~/.config/nvim/init.vim . && cp ~/.zshrc . && cp ~/.config/ranger/rc.conf .
+cp ~/.ideavimrc . && cp ~/.config/nvim/init.vim ./nvim && cp ~/.zshrc . && cp ~/.config/ranger/rc.conf ./ranger && cp ~/.config/karabiner/assets/complex_modifications/hjkl_fn.json ./karabiner/assets/complex_modifications && cp ~/.config/karabiner/karabiner.json karabiner
